@@ -1,0 +1,19 @@
+{
+	"name": "playwright-reload-bug",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "http-server ./",
+		"test": "playwright test -ui"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@playwright/test": "^1.34.3"
+	},
+	"dependencies": {
+		"dotenv": "^16.1.4",
+		"http-server": "^14.1.1"
+	}
+}
