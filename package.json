@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "http-server ./",
-		"test": "playwright test -ui"
+		"test": "playwright test --ui"
 	},
 	"author": "",
 	"license": "ISC",
