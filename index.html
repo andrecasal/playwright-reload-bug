@@ -7,7 +7,11 @@
 	<title>Cool website 😎</title>
 	<link rel="stylesheet" href="style.css">
 	<script>
-		if(Math.random() > 0.5) window.location.reload()
+		const noData = localStorage.getItem('data') === null
+		if(noData) {
+			localStorage.setItem('data', 'data')
+			window.location.reload()
+		}
 	</script>
 </head>
 <body>
