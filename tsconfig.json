@@ -1,0 +1,30 @@
+{
+	"include": [
+		"**/*.ts",
+	],
+	"compilerOptions": {
+		"types": [
+			"node",
+		],
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ES2019",
+			"ES2021.String"
+		],
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"target": "ES2019",
+		"strict": true,
+		"allowJs": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"paths": {
+			"~/*": [
+				"./app/*"
+			]
+		},
+	}
+}
